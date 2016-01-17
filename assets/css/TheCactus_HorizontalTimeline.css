@@ -1,0 +1,122 @@
+#tc_horizontaltimeline {
+    position: relative;
+    margin: auto;
+    width: 980px;
+    height: 175px;
+}
+
+.tc_ht_timeline {
+    position: absolute;
+    left: 50%;
+    width: 96%;
+    height: 100%;
+    margin-left: -48%;
+}
+
+.tc_ht_bar {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    height: 2px;
+    background-color: #acacac;
+}
+
+.tc_ht_events {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.tc_ht_event {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tc_ht_e_point {
+    position: absolute;
+    top: 65px;
+    width: 14px;
+    height: 14px;
+    border: 4px solid #ecf0f1;
+    border-radius: 14px;
+    background-color: #dd5555;
+    cursor: pointer;
+    z-index: 500;
+}
+
+.tc_ht_e_emptypoint{
+    position: absolute;
+    top: 69px;
+    width: 2px;
+    height: 14px;
+    background-color: #3a3a3a;
+}
+.tc_ht_leftborder, .tc_ht_rightborder {
+    position: absolute;
+    top: 72px;
+    width: 1px;
+    height: 8px;    
+    background-color: #3a3a3a;
+}
+.tc_ht_leftborder {
+    left: 0;
+}
+
+.tc_ht_rightborder {
+    right: 0;
+}
+
+.tc_ht_e_hint {
+    display: none;
+    position: absolute;
+    top: 105px;
+    padding: 1%;
+    background-color: #FFFFFF;
+    text-align: center;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+
+.tc_ht_e_position {
+    position: absolute;
+}
+
+.tc_ht_e_position_top {
+    top: 45px;    
+}
+
+.tc_ht_e_position_bottom {
+    top: 85px;
+}
+
+.tc_ht_i_position, .tc_ht_i_hint {
+    display: inline-block;
+}
+
+/** ARROWS */
+.tc_ht_arrows {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 12px;
+}
+
+.tc_ht_leftarrow, .tc_ht_rightarrow {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+}
+
+.tc_ht_leftarrow {
+    left: 0;
+    background: url("/assets/images/TheCactus_timeline/left_arrow.png") no-repeat center top;
+}
+
+.tc_ht_rightarrow {
+    right: 0;
+    background: url("/assets/images/TheCactus_timeline/right_arrow.png") no-repeat center top;
+}
